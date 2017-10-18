@@ -8,7 +8,7 @@ function pad(source, length, padding) {
     return source;
   }
 
-  if (padding == null) {
+  if (!padding) {
     padding = ' ';
   }
 
