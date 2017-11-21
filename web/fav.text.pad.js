@@ -13,7 +13,7 @@ function pad(source, length, padding) {
   }
 
   var padsLen = length - source.length;
-  var padsNum = Math.ceil(padsLen / padding.length)
+  var padsNum = Math.ceil(padsLen / padding.length);
   var padsFull = repeat(padding, padsNum);
   var padsHalfPos = Math.floor(padsLen / 2);
 
