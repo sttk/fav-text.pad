@@ -37,7 +37,8 @@ function repeat(source, ntimes) {
   var unitlen = source.length;
   var halftime = Math.ceil(ntimes / 2);
 
-  for (var i = 1; i < halftime; i += i) {
+  var i;
+  for (i = 1; i < halftime; i += i) {
     source += source;
   }
 

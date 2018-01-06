@@ -48,6 +48,6 @@
     "uglify-js": "^3.1.3"
   },
   "dependencies": {
-    "@fav/text.repeat": "^0.1.0"
+    "@fav/text.repeat": "^1.0.0"
   }
 }
