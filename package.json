@@ -1,6 +1,6 @@
 {
   "name": "@fav/text.pad",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Pads a string on the left and right sides to center a source string.",
   "main": "index.js",
   "files": [
