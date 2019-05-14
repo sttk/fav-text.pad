@@ -3,6 +3,8 @@ sudo: false
 language: node_js
 
 node_js:
+  - '12'
+  - '11'
   - '10'
   - '9'
   - '8'
@@ -20,3 +22,5 @@ after_success:
 
 os:
   - linux
+  - osx
+  - windows
