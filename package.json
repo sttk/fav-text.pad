@@ -17,8 +17,6 @@
     "web:build-test": "node tool/mktest.js",
     "chrome:install": "npm i --no-save mocha-chrome",
     "chrome:test": "mocha-chrome test/web/browser-test.html",
-    "phantom:install": "npm i --no-save phantomjs-prebuilt mocha-phantomjs",
-    "phantom:test": "mocha-phantomjs -p node_modules/.bin/phantomjs test/web/browser-test.html",
     "build": "npm run lint && npm run coverage && npm run web:build"
   },
   "repository": {
